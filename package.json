@@ -1,0 +1,41 @@
+{
+  "name": "jsscheduler",
+  "version": "1.0.0",
+  "description": "Appointment Scheduler using React, Webpack (frontend), Express, Twilio (backend), CosmicJS, Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tregelacio/JSscheduler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tregelacio/JSscheduler/issues"
+  },
+  "homepage": "https://github.com/tregelacio/JSscheduler#readme",
+  "dependencies": {
+    "async": "^3.2.1",
+    "axios": "^0.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "css-loader": "^6.4.0",
+    "eslint": "^8.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.4.0",
+    "material-ui": "^0.20.2",
+    "moment": "^2.29.1",
+    "normalize.css": "^8.0.1",
+    "path": "^0.12.7",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.3",
+    "react-tap-event-plugin": "^3.0.3",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.58.2"
+  }
+}
