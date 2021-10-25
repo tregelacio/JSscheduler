@@ -4,7 +4,7 @@
   "description": "Appointment Scheduler using React, Webpack (frontend), Express, Twilio (backend), CosmicJS, Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -24,18 +24,26 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cosmicjs": "^4.1.2",
     "css-loader": "^6.4.0",
     "eslint": "^8.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.4.0",
+    "http": "^0.0.1-security",
     "material-ui": "^0.20.2",
     "moment": "^2.29.1",
+    "morgan": "^1.10.0",
     "normalize.css": "^8.0.1",
     "path": "^0.12.7",
     "react": "^16.3.2",
     "react-dom": "^16.3.3",
     "react-tap-event-plugin": "^3.0.3",
     "style-loader": "^3.3.0",
+    "twilio": "^3.70.0",
     "webpack": "^5.58.2"
   }
 }
